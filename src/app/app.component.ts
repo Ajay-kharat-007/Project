@@ -29,6 +29,18 @@ export class AppComponent {
     this.mainData.push(obj)
   }
 
+  changeData(){
+    console.log(this.excelData)
+    this.excelData.map((elem) => {
+      this.convertData(elem)
+    })
+    console.log(this.mainData)
+    this.http.postData(this.mainData).subscribe((res)=>{
+      console.log(res)
+    })
+  }
+
+
   onSubmit() {
     console.log(this.excelData)
     this.excelData.map((elem) => {

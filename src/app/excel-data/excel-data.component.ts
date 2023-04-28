@@ -45,6 +45,7 @@ export class ExcelDataComponent implements OnInit {
     this.fetchData()
   }
 
+
   fetchData() {
     this.http.getData().subscribe({
       next: (res: any) => {

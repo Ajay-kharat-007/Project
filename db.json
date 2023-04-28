@@ -2,6 +2,16 @@
   "excelData": [
     [
       {
+        "OrderDate": "OrderDate",
+        "Region": "Region",
+        "City": "City",
+        "Category": "Category",
+        "Product": "Product",
+        "Quantity": "Quantity",
+        "UnitPrice": "UnitPrice",
+        "TotalPrice": "TotalPrice"
+      },
+      {
         "OrderDate": 43831,
         "Region": "East",
         "City": "Boston",
